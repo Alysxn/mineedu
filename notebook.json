@@ -1,0 +1,25 @@
+{
+  "title": "Explorando o Bloco Say",
+  "description": "Vamos aprender como usar o bloco 'say' para enviar mensagens.",
+  "steps": [
+    {
+      "title": "Passo 1",
+      "content": "Abra o Code Builder pressionando 'C'.",
+      "code": {
+        "blocks": {
+          "blocks": [
+            {
+              "type": "minecraft:on_chat",
+              "message": "start",
+              "event": "on_chat_command"
+            },
+            {
+              "type": "minecraft:say",
+              "message": "Olá mundo!"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
